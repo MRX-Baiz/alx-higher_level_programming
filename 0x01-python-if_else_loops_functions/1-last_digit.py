@@ -4,10 +4,10 @@ number = random.randint(-10000, 10000)
 i = abs(number) % 10
 if number < 0:
     i = -i
-print(f'Last digit of {number:d} is {digit:d} and is ', end='')
+print(f"Last digit of {number:d} is {digit:d} and is ", end="")
 if i > 5:
-    print('greater than 5')
+    print("greater than 5")
 elif i == 0:
-    print('0')
+    print("0")
 else:
-    print('less than 6 and not 0')
+    print("less than 6 and not 0")
