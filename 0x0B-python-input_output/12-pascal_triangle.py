@@ -15,4 +15,4 @@ def pascal_triangle(n):
             nextrow.append(prevrow[i - 1] + prevrow[i])
         nextrow.append(1)
         pascal.append(nextrow)
-    return triangles
+    return pascal
